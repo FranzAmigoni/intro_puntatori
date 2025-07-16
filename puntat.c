@@ -7,5 +7,8 @@ int main(void) {
 
  Y = &x;  // indirizzo di memoria di x
  printf("x is stored at the address: %p\n", y);
+
+ *y = 10;
+ printf("x now is: %d\n", x);
  return 0;
 }
